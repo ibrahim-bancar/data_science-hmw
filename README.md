@@ -26,8 +26,6 @@ This repository was prepared to present my data science coursework in a **clear 
 - **Data access:** The **CSV** in `01-temporal-energy-analysis/` is compressed. Extract `World Energy Consumption.csv.zip` and place `World Energy Consumption.csv` in the same folder. If the filename changes, update the path in the notebook accordingly.
 
 ## Notes
-- **Code cells were not modified**; only descriptive texts were adapted (e.g., *“Q1 (20 pts)” → “Analysis 1”*).
-- Large datasets are not included in the repo; smaller samples or external links are provided instead.
 - The team project folder explicitly indicates collaboration details.
 
 ## License
