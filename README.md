@@ -1,35 +1,34 @@
-# Data Science Mini‑Portfolio
+# Data Science Mini-Portfolio
 
-Bu depo; veri bilimi ders çalışmalarımı **ödev havası olmadan** anlaşılır ve yeniden üretilebilir biçimde sunmak için hazırlandı. Kod hücrelerine **dokunulmadı**; yalnızca notebook’lardaki (Markdown) “homework/assignment/puan” ifadeleri projeye uygun dile çevrildi.
+This repository was prepared to present my data science coursework in a **clear and reproducible way, without the feel of homework submissions**. The **code cells remain untouched**; only the notebook (Markdown) texts containing “homework/assignment/points” were rewritten into project-appropriate descriptions.
 
-## İçerik
+## Contents
 
-| Klasör / Dosya | Açıklama | Çalıştırma / Notlar |
+| Folder / File | Description | How to Run / Notes |
 |---|---|---|
-| **01-temporal-energy-analysis/** | Küresel enerji tüketimi üzerine keşifsel veri analizi (EDA) notebook’u. | Aynı klasördeki `World Energy Consumption.csv.zip` dosyasını çıkarıp **`World Energy Consumption.csv`** dosyasını notebook’un yanına koyun. |
-| **02-homework-1/** | İlk ödev setinden bağımsız bir analiz notebook’u (ödev terimleri temizlendi). | `jupyter notebook` ile açın. |
-| **03-term-project-team/** | **Takım projesi**: notebook + sunum. | Ekip arkadaşım: **Hasan Kan**. Sunum: `term-project-presentation.pptx` – Video bağlantısı: `term-project-youtube-link.txt`. |
-| **04-streamlit-whisper-ner-legacy/** | Eski bir Streamlit uygulamasına ait arşiv (Whisper ASR + NER). | Referans amaçlıdır. |
-| **requirements.txt** | Gerekli temel Python paketleri. | Aşağıdaki “Kurulum” bölümüne bakın. |
+| **01-temporal-energy-analysis/** | Exploratory Data Analysis (EDA) notebook on global energy consumption. | Unzip the `World Energy Consumption.csv.zip` file in the same folder and place **`World Energy Consumption.csv`** next to the notebook. |
+| **02-homework-1/** | An independent analysis notebook originally from the first homework set (homework references removed). | Open with `jupyter notebook`. |
+| **03-term-project-team/** | **Team project**: notebook + presentation. | Teammate: **Hasan Kan**. Presentation: `term-project-presentation.pptx` – Video link: `term-project-youtube-link.txt`. |
+| **04-streamlit-whisper-ner-legacy/** | Archive of an older Streamlit app (Whisper ASR + NER). | Provided for reference. |
+| **requirements.txt** | Required Python packages. | See the “Setup” section below. |
 
-## Kurulum
-```bash
-python -m venv .venv
-source .venv/bin/activate   # Windows: .venv\Scripts\activate
-pip install --upgrade pip
-pip install -r requirements.txt
-```
+## Setup
 
-## Notebook’ları Çalıştırma
-```bash
-jupyter notebook  # veya jupyter lab
-```
-- **Veri erişimi:** `01-temporal-energy-analysis/` içindeki **CSV** sıkıştırılmıştır. `World Energy Consumption.csv.zip` dosyasını açın ve `World Energy Consumption.csv` dosyasını aynı klasöre bırakın. Dosya adı değişirse notebook’taki okuma yolunu güncelleyin.
+    python -m venv .venv
+    source .venv/bin/activate   # On Windows: .venv\Scripts\activate
+    pip install --upgrade pip
+    pip install -r requirements.txt
 
-## Notlar
-- Kod hücreleri **değiştirilmedi**; yalnızca açıklama metinleri projeye uygun olarak düzenlendi (örn. *“Q1 (20 pts)” → “Analysis 1”*).
-- Büyük veri dosyaları repoya eklenmez; gerekirse küçük örnek/bağlantı kullanılır.
-- Takım projesi klasöründe ortak çalışma bilgisi özellikle belirtilmiştir.
+## Running the Notebooks
 
-## Lisans
-Kodlar: **MIT**. Veri setlerinin lisansı kaynağına göre değişebilir.
+    jupyter notebook  # or jupyter lab
+
+- **Data access:** The **CSV** in `01-temporal-energy-analysis/` is compressed. Extract `World Energy Consumption.csv.zip` and place `World Energy Consumption.csv` in the same folder. If the filename changes, update the path in the notebook accordingly.
+
+## Notes
+- **Code cells were not modified**; only descriptive texts were adapted (e.g., *“Q1 (20 pts)” → “Analysis 1”*).
+- Large datasets are not included in the repo; smaller samples or external links are provided instead.
+- The team project folder explicitly indicates collaboration details.
+
+## License
+Code: **MIT**. Dataset licenses may vary depending on their source.
