@@ -1,6 +1,6 @@
 # Data Science Mini-Portfolio
 
-This repository was prepared to present my data science coursework in a **clear and reproducible way, without the feel of homework submissions**. The **code cells remain untouched**; only the notebook (Markdown) texts containing “homework/assignment/points” were rewritten into project-appropriate descriptions.
+A curated selection of small projects and notebooks demonstrating exploratory analysis, collaborative work, and rapid prototyping in Python and Jupyter.
 
 ## Contents
 
